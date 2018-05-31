@@ -1,0 +1,111 @@
+/* Permet de réduire les marges */
+* {
+  box-sizing: border-box;
+}
+html,body {
+  margin:0;
+  padding:0;
+}
+
+/* Style du header */
+.img_logo {
+  display: block;
+  margin: auto;
+  max-width: 10%;
+}
+.liste_header{
+  list-style-type: none;
+  float:right;
+  margin-right:50px;
+}
+header {
+  margin-bottom: 50px;
+}
+.liste_header li {
+  display:inline-block;
+  margin-right:20px;
+}
+.liste_header li a {
+  color: #00629F;
+}
+
+/* Style des titres */
+h1 {
+  color: #00629F;
+  margin-left: 50px;
+}
+h2 {
+  color : #00629F;
+}
+
+/* Style de la div ISEP */
+.ISEP {
+  display: inline-block;
+  padding-left: 50px;
+  width:550px;
+  margin-right: 20px;
+}
+
+/* Style de la div nom */
+.nom {
+    position: absolute;
+    right:0;
+    width:200px;
+}
+/* Style de la div Inscription */
+.inscription{
+  display: inline-block;
+  vertical-align: top;
+  width:300px;
+    margin-right:100px;
+}
+.inscription input:not(.bouton_submit) {
+  width:300px;
+}
+/* Style de la div connexion */
+.connexion {
+    display:inline-block;
+    vertical-align: top;
+    width:300px;
+}
+.connexion input:not(.bouton_submit) {
+    width:300px;
+}
+
+/* Style de la div poster_sujet */
+.poster_sujet {
+  display: inline-block;
+  padding-left: 50px;
+  width:600px;
+}
+
+/* Style de la div liste_sujets */
+.liste_sujets {
+  vertical-align: top;
+  display: inline-block;
+  width:750px;
+    margin-left:2%;
+}
+
+/* Styles complémentaires (italique, gras, bouton) */
+.italic {
+  font-style: italic;
+}
+strong {
+  font-weight:bold;
+}
+.bouton_submit {
+  margin-top:1em;
+  background-color: #00629F;
+  width:80px;
+  height:40px;
+  border: none;
+  color:white;
+  border-radius: 8px;
+  display: block;
+  clear: left;
+}
+.bouton_submit:hover {
+  background-color: #21abdd;
+}
+/* Nicolas LE BORGNE, G9C */
