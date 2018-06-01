@@ -129,6 +129,12 @@ function getNbreArticles() {
   return $get;
 }
 
+function getNbreAuteurs() {
+  global $bdd;
+  $get = $bdd->query('SELECT DISTINCT ID, count(ID) FROM personne');
+  return $get->fetch();
+}
+
 // fonction qui tri les articles
 function tri($id,$categorie,$date) {
   global $bdd;

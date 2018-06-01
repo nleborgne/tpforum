@@ -64,7 +64,7 @@
         }
         echo '<p>Votre réponse :</p>';
         //echo '<textarea rows="10" cols="50" name="contenu" form="formAjoutCommentaire"></textarea>';
-        echo '<input type="text" name="contenu" value="">';
+        echo '<input style="width:300px;height:150px;"type="text" name="contenu" value="">';
         echo '<input class="bouton_submit" type="submit" name="validerForm'.$id.'" value="Envoyer">';
         echo "</form>";
       }
@@ -75,7 +75,7 @@
       <form method="POST" action="controller_actualites.php" id="newsForm">
         <p>Par auteur du sujet :</p>
         <select name="auteurs" id="">
-          <option value="0">Tous</option>
+          <option value="0">Tous (<?php echo $nbreAuteurs['count(ID)']?>)</option>
           <?php while ($dataAuteurs = $auteurs->fetch()) {
             echo "<option value='" . $dataAuteurs['ID'] . "'>" . $dataAuteurs['nom'] . "</option>";
           } ?>

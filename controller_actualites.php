@@ -19,6 +19,7 @@ require('modele.php');
 
 // Voir les auteurs
 $auteurs = getAuteurs();
+$nbreAuteurs = getNbreAuteurs();
 // Voir les acutalités
 $categories = getCategories();
 // Trier

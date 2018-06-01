@@ -4,6 +4,7 @@ if(!isset($_SESSION)) {
   session_start();
   $nom = " ";
 }
+
 // Affichage 'bonjour"
 if(isset($_SESSION['ID'])){
   $nom = "Bonjour ".$_SESSION['nom'];
@@ -13,7 +14,6 @@ require('modele.php');
 
 // Voir les différentes news
 $news = getNews();
-
 
 // Bouton deconnexion
 if(isset($_SESSION['ID'])) {
