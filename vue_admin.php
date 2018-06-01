@@ -52,7 +52,7 @@
             //echo '<textarea name="name'.$id.'" cols="50" rows="10" form="formModifierSujet" >'.htmlspecialchars($data['contenu_news']).'</textarea> <br>';
             echo '<input style="width:300px" name="name'.$id.'" value="'.htmlspecialchars($data["contenu_news"]).'"><br>';
             echo "<input type='text' style='display:none;' name='ID' value ='" . $id . "'>";
-            echo '<span class="italic">Posté par </span><strong>' . htmlspecialchars($data['nom']) . '</strong> le <span class="italic">' . htmlspecialchars($data['date_message']) . '</span></p>';
+            echo '<span class="italic">Posté par </span><strong>' . htmlspecialchars($data['nom']) . '</strong> le <span class="italic"><input type="date" name="date'.$id.'" value="' . htmlspecialchars($data['date_message']) . '"></span></p>';
             echo '<span class="italic">Catégorie : </span><strong>' . htmlspecialchars($data['nom_categorie']) .'</span></strong></p>';
             echo '<input class="bouton_submit" type="submit" name="modifSujet'.$id.'" value="Modif">';
             echo '</form>';

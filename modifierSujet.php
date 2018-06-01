@@ -8,4 +8,6 @@ $count = getNbreArticles();
 $nbreArticles = $count->fetch();
 
 echo $_POST['name' . $_POST['ID']];
-modifierSujet($_POST['ID'],$_SESSION['ID'],"2018-06-01",$_POST['name'.$_POST['ID']],1);
+modifierSujet($_POST['ID'], $_SESSION['ID'], $_POST['date' . $_POST['ID']], $_POST['name' . $_POST['ID']], 1);
+header('Location: controller_admin.php');
+
