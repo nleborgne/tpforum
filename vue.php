@@ -28,12 +28,12 @@
       <li><a href="controller_actualites.php">Acutalités</a></li>
       <li><a href="">Ajouter un sujet</a></li>
       <li><a href="">Contact</a></li>
-        <?php echo $deconnexion; ?>
+      <?php echo $deconnexion; ?>
     </ul>
   </header>
 
   <div class="nom">
-      <?php echo $nom ?>
+    <?php echo $nom ?>
   </div>
 
   <h1>ISEP</h1>
@@ -66,17 +66,17 @@
       <?php if(isset($message)) {echo $message;} ?>
     </div>
 
-      <div class="connexion">
-          <h2>Connexion au forum</h2>
-          <form action="index.php" method="post">
-              <p>Votre e-mail : </p>
-              <input type="text" name="email_connexion" placeholder="Votre e-mail">
-              <p>Votre mot de passe : </p>
-              <input type="password" name="mot_de_passe_connexion" placeholder="Votre mot de passe">
-              <input type="submit" class="bouton_submit" value="Envoyer">
-          </form>
-          <?php if(isset($messageConnexion)) {echo $messageConnexion;} ?>
-      </div>
+    <div class="connexion">
+      <h2>Connexion au forum</h2>
+      <form action="index.php" method="post">
+        <p>Votre e-mail : </p>
+        <input type="text" name="email_connexion" placeholder="Votre e-mail">
+        <p>Votre mot de passe : </p>
+        <input type="password" name="mot_de_passe_connexion" placeholder="Votre mot de passe">
+        <input type="submit" class="bouton_submit" value="Envoyer">
+      </form>
+      <?php if(isset($messageConnexion)) {echo $messageConnexion;} ?>
+    </div>
 
   </div>
 

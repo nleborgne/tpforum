@@ -6,7 +6,7 @@ if(!isset($_SESSION)) {
 }
 // Affichage 'bonjour"
 if(isset($_SESSION['ID'])){
-  $nom = "Bonjour ".$_SESSION['nom'];
+  $nom = "<p>Bonjour ".$_SESSION['nom']."</p>";
 }
 // Bouton deconnexion
 if(isset($_SESSION['ID'])) {
@@ -25,9 +25,6 @@ $categories = getCategories();
 // Trier
 //$tri = trier();
 if(isset($_POST["validerTrier"])) {
-  echo $_POST['auteurs'];
-  echo $_POST['categorie'];
-  echo $_POST['date'];
   $news = tri($_POST['auteurs'], $_POST['categorie'],$_POST['date']);
 } else {
   $news = tri(0,0,"");

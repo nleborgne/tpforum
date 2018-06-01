@@ -131,7 +131,7 @@ function getNbreArticles() {
 
 function getNbreAuteurs() {
   global $bdd;
-  $get = $bdd->query('SELECT DISTINCT ID, count(ID) FROM personne');
+  $get = $bdd->query('SELECT ID_utilisateur, count(distinct(ID_utilisateur)) FROM messages');
   return $get->fetch();
 }
 

@@ -7,7 +7,7 @@ if(!isset($_SESSION)) {
 
 // Affichage 'bonjour"
 if(isset($_SESSION['ID'])){
-  $nom = "Bonjour ".$_SESSION['nom'];
+  $nom = "<p>Bonjour ".$_SESSION['nom']."</p>";
 }
 // Appel du modèle
 require('modele.php');

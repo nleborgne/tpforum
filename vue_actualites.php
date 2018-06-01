@@ -75,7 +75,7 @@
       <form method="POST" action="controller_actualites.php" id="newsForm">
         <p>Par auteur du sujet :</p>
         <select name="auteurs" id="">
-          <option value="0">Tous (<?php echo $nbreAuteurs['count(ID)']?>)</option>
+          <option value="0">Tous (<?php echo $nbreAuteurs['count(distinct(ID_utilisateur))']?>)</option>
           <?php while ($dataAuteurs = $auteurs->fetch()) {
             echo "<option value='" . $dataAuteurs['ID'] . "'>" . $dataAuteurs['nom'] . "</option>";
           } ?>
