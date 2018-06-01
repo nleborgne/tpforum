@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e710689d-6fb0-462b-9a91-d784f547f40f" name="Default" comment="" />
+    <list default="true" id="e710689d-6fb0-462b-9a91-d784f547f40f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/controller_admin.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/modifierSujet.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue_admin.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/modele.php" afterPath="$PROJECT_DIR$/modele.php" />
+      <change beforePath="$PROJECT_DIR$/vue.php" afterPath="$PROJECT_DIR$/vue.php" />
+      <change beforePath="$PROJECT_DIR$/vue_actualites.php" afterPath="$PROJECT_DIR$/vue_actualites.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,21 +22,55 @@
       <file leaf-file-name="modele.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modele.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+            <state relative-caret-position="620">
+              <caret line="199" column="20" lean-forward="false" selection-start-line="199" selection-start-column="20" selection-end-line="199" selection-end-column="20" />
               <folding>
-                <marker date="1527720148345" expanded="true" signature="301:719" ph="SELECT * FRO... ID" />
-                <marker date="1527720148345" expanded="true" signature="316:657" ph="SELECT DISTI... messages" />
-                <marker date="1527720148345" expanded="true" signature="883:922" ph="SELECT ID fr... personne" />
-                <marker date="1527720148345" expanded="true" signature="1132:1172" ph="SELECT nom f... personne" />
-                <marker date="1527720148345" expanded="true" signature="1372:1462" ph="INSERT INTO messages... " />
-                <marker date="1527720148345" expanded="true" signature="1835:1877" ph="SELECT email... personne" />
-                <marker date="1527720148345" expanded="true" signature="2209:2287" ph="INSERT INTO personne... " />
-                <marker date="1527720148345" expanded="true" signature="2615:2653" ph="SELECT * fro... personne" />
-                <marker date="1527720148345" expanded="true" signature="3031:3141" ph="SELECT * FRO... commentaire" />
-                <marker date="1527720148345" expanded="true" signature="3358:3475" ph="INSERT INTO commentaire... " />
-                <marker date="1527720148345" expanded="true" signature="3854:3969" ph="SELECT DISTI... messages" />
-                <marker date="1527720148345" expanded="true" signature="4061:4085" ph="SELECT * fro... categories" />
+                <marker date="1527846573525" expanded="true" signature="310:486" ph="SELECT *, me... messages" />
+                <marker date="1527846573525" expanded="true" signature="650:689" ph="SELECT ID fr... personne" />
+                <marker date="1527846573525" expanded="true" signature="899:939" ph="SELECT nom f... personne" />
+                <marker date="1527846573525" expanded="true" signature="1151:1265" ph="INSERT INTO messages... " />
+                <marker date="1527846573525" expanded="true" signature="1703:1745" ph="SELECT email... personne" />
+                <marker date="1527846573525" expanded="true" signature="2077:2155" ph="INSERT INTO personne... " />
+                <marker date="1527846573525" expanded="true" signature="2483:2521" ph="SELECT * fro... personne" />
+                <marker date="1527846573525" expanded="true" signature="2899:3009" ph="SELECT * FRO... commentaire" />
+                <marker date="1527846573525" expanded="true" signature="3226:3343" ph="INSERT INTO commentaire... " />
+                <marker date="1527846573525" expanded="true" signature="3749:3865" ph="SELECT DISTI... messages" />
+                <marker date="1527846573525" expanded="true" signature="3987:4011" ph="SELECT * fro... categories" />
+                <marker date="1527846573525" expanded="true" signature="4141:4175" ph="SELECT ID, c... messages" />
+                <marker date="1527846573525" expanded="true" signature="4268:4336" ph="SELECT ID_ut... messages" />
+                <marker date="1527846573525" expanded="true" signature="4598:5177" ph="SELECT * FRO... ID" />
+                <marker date="1527846573525" expanded="true" signature="4613:5115" ph="SELECT DISTI... messages" />
+                <marker date="1527846573525" expanded="true" signature="5383:5986" ph="SELECT * FRO... ID" />
+                <marker date="1527846573525" expanded="true" signature="5398:5924" ph="SELECT DISTI... messages" />
+                <marker date="1527846573525" expanded="true" signature="6210:6732" ph="SELECT * FRO... ID" />
+                <marker date="1527846573525" expanded="true" signature="6225:6670" ph="SELECT DISTI... messages" />
+                <marker date="1527846573525" expanded="true" signature="6893:7465" ph="SELECT * FRO... ID" />
+                <marker date="1527846573525" expanded="true" signature="6908:7403" ph="SELECT DISTI... messages" />
+                <marker date="1527846573525" expanded="true" signature="7682:8254" ph="SELECT * FRO... ID" />
+                <marker date="1527846573525" expanded="true" signature="7697:8192" ph="SELECT DISTI... messages" />
+                <marker date="1527846573525" expanded="true" signature="8442:9046" ph="SELECT * FRO... ID" />
+                <marker date="1527846573525" expanded="true" signature="8457:8984" ph="SELECT DISTI... messages" />
+                <marker date="1527846573525" expanded="true" signature="9240:9834" ph="SELECT * FRO... ID" />
+                <marker date="1527846573525" expanded="true" signature="9255:9772" ph="SELECT DISTI... messages" />
+                <marker date="1527846573525" expanded="true" signature="10033:10659" ph="SELECT * FRO... ID" />
+                <marker date="1527846573525" expanded="true" signature="10048:10597" ph="SELECT DISTI... messages" />
+                <marker date="1527846573525" expanded="true" signature="10861:10974" ph="UPDATE messages... " />
+                <marker date="1527846573525" expanded="true" signature="10861:10989" ph="UPDATE messages... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="support_modele.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../homeniscience/support/panne/support_modele.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1044">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1527582483207" expanded="true" signature="649:1186" ph="SELECT *, eq... panne" />
+                <marker date="1527582483207" expanded="true" signature="1400:1554" ph="SELECT *, pa... panne" />
+                <marker date="1527582483207" expanded="true" signature="1714:1739" ph="SELECT * FRO... type_statut" />
+                <marker date="1527582483207" expanded="true" signature="1852:2020" ph="UPDATE panne... " />
               </folding>
             </state>
           </provider>
@@ -37,31 +79,56 @@
       <file leaf-file-name="ajout_commentaire.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajout_commentaire.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="286">
+              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller_actualites.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller_actualites.php">
+      <file leaf-file-name="vue_admin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue_admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="260">
+              <caret line="52" column="120" lean-forward="false" selection-start-line="52" selection-start-column="120" selection-end-line="52" selection-end-column="120" />
+              <folding>
+                <marker date="1527846704101" expanded="true" signature="3083:3336" ph="..." />
+                <marker date="1527846704101" expanded="true" signature="3188:3336" ph="..." />
+                <marker date="1527846704101" expanded="true" signature="3271:3336" ph="..." />
+                <marker date="1527846704101" expanded="true" signature="3677:3838" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue_actualites.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vue_actualites.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue_actualites.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+            <state relative-caret-position="338">
+              <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
-                <marker date="1527720203640" expanded="true" signature="2907:3012" ph="..." />
+                <marker date="1527843917518" expanded="true" signature="2829:2854" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifierSujet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modifierSujet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller_admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller_admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,6 +142,9 @@
       <find>getCommentaires</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -82,11 +152,14 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/disconnect.php" />
         <option value="$PROJECT_DIR$/ajout_commentaire.php" />
-        <option value="$PROJECT_DIR$/vue.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/modele.php" />
         <option value="$PROJECT_DIR$/controller_actualites.php" />
+        <option value="$PROJECT_DIR$/vue.php" />
         <option value="$PROJECT_DIR$/vue_actualites.php" />
+        <option value="$PROJECT_DIR$/controller_admin.php" />
+        <option value="$PROJECT_DIR$/modele.php" />
+        <option value="$PROJECT_DIR$/modifierSujet.php" />
+        <option value="$PROJECT_DIR$/vue_admin.php" />
       </list>
     </option>
   </component>
@@ -103,6 +176,7 @@
     <option name="width" value="967" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -118,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +203,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -137,7 +211,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homeniscience/support/panne/support_modele.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,21 +245,24 @@
       <workItem from="1527610089077" duration="27000" />
       <workItem from="1527693951798" duration="2597000" />
       <workItem from="1527717281405" duration="2651000" />
+      <workItem from="1527837603031" duration="28000" />
+      <workItem from="1527843516454" duration="3190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18740000" />
+    <option name="totallyTimeSpent" value="21958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15520945" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1595059" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -211,23 +288,60 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vue_actualites.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding>
+            <marker date="1527843917518" expanded="true" signature="2829:2854" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller_actualites.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modele.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1527720148345" expanded="true" signature="301:719" ph="SELECT * FRO... ID" />
-            <marker date="1527720148345" expanded="true" signature="316:657" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="883:922" ph="SELECT ID fr... personne" />
-            <marker date="1527720148345" expanded="true" signature="1132:1172" ph="SELECT nom f... personne" />
-            <marker date="1527720148345" expanded="true" signature="1372:1462" ph="INSERT INTO messages... " />
-            <marker date="1527720148345" expanded="true" signature="1835:1877" ph="SELECT email... personne" />
-            <marker date="1527720148345" expanded="true" signature="2209:2287" ph="INSERT INTO personne... " />
-            <marker date="1527720148345" expanded="true" signature="2615:2653" ph="SELECT * fro... personne" />
-            <marker date="1527720148345" expanded="true" signature="3031:3141" ph="SELECT * FRO... commentaire" />
-            <marker date="1527720148345" expanded="true" signature="3358:3475" ph="INSERT INTO commentaire... " />
-            <marker date="1527720148345" expanded="true" signature="3854:3969" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="4061:4085" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="310:486" ph="SELECT *, me... messages" />
+            <marker date="1527846573525" expanded="true" signature="650:689" ph="SELECT ID fr... personne" />
+            <marker date="1527846573525" expanded="true" signature="899:939" ph="SELECT nom f... personne" />
+            <marker date="1527846573525" expanded="true" signature="1151:1265" ph="INSERT INTO messages... " />
+            <marker date="1527846573525" expanded="true" signature="1703:1745" ph="SELECT email... personne" />
+            <marker date="1527846573525" expanded="true" signature="2077:2155" ph="INSERT INTO personne... " />
+            <marker date="1527846573525" expanded="true" signature="2483:2521" ph="SELECT * fro... personne" />
+            <marker date="1527846573525" expanded="true" signature="2899:3009" ph="SELECT * FRO... commentaire" />
+            <marker date="1527846573525" expanded="true" signature="3226:3343" ph="INSERT INTO commentaire... " />
+            <marker date="1527846573525" expanded="true" signature="3749:3865" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="3987:4011" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="4141:4175" ph="SELECT ID, c... messages" />
+            <marker date="1527846573525" expanded="true" signature="4268:4336" ph="SELECT ID_ut... messages" />
+            <marker date="1527846573525" expanded="true" signature="4598:5177" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="4613:5115" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="5383:5986" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="5398:5924" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6210:6732" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6225:6670" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6893:7465" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6908:7403" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="7682:8254" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="7697:8192" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="8442:9046" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="8457:8984" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="9240:9834" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="9255:9772" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10033:10659" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="10048:10597" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10861:10974" ph="UPDATE messages... " />
+            <marker date="1527846573525" expanded="true" signature="10861:10989" ph="UPDATE messages... " />
           </folding>
         </state>
       </provider>
@@ -253,7 +367,7 @@
         <state relative-caret-position="1378">
           <caret line="53" column="67" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
           <folding>
-            <marker date="1527720203640" expanded="true" signature="2907:3012" ph="..." />
+            <marker date="1527843917518" expanded="true" signature="2829:2854" ph="..." />
           </folding>
         </state>
       </provider>
@@ -262,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2574">
           <caret line="99" column="167" lean-forward="false" selection-start-line="99" selection-start-column="167" selection-end-line="99" selection-end-column="167" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -270,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1352">
           <caret line="52" column="58" lean-forward="false" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -279,18 +391,37 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1527720148345" expanded="true" signature="301:719" ph="SELECT * FRO... ID" />
-            <marker date="1527720148345" expanded="true" signature="316:657" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="883:922" ph="SELECT ID fr... personne" />
-            <marker date="1527720148345" expanded="true" signature="1132:1172" ph="SELECT nom f... personne" />
-            <marker date="1527720148345" expanded="true" signature="1372:1462" ph="INSERT INTO messages... " />
-            <marker date="1527720148345" expanded="true" signature="1835:1877" ph="SELECT email... personne" />
-            <marker date="1527720148345" expanded="true" signature="2209:2287" ph="INSERT INTO personne... " />
-            <marker date="1527720148345" expanded="true" signature="2615:2653" ph="SELECT * fro... personne" />
-            <marker date="1527720148345" expanded="true" signature="3031:3141" ph="SELECT * FRO... commentaire" />
-            <marker date="1527720148345" expanded="true" signature="3358:3475" ph="INSERT INTO commentaire... " />
-            <marker date="1527720148345" expanded="true" signature="3854:3969" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="4061:4085" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="310:486" ph="SELECT *, me... messages" />
+            <marker date="1527846573525" expanded="true" signature="650:689" ph="SELECT ID fr... personne" />
+            <marker date="1527846573525" expanded="true" signature="899:939" ph="SELECT nom f... personne" />
+            <marker date="1527846573525" expanded="true" signature="1151:1265" ph="INSERT INTO messages... " />
+            <marker date="1527846573525" expanded="true" signature="1703:1745" ph="SELECT email... personne" />
+            <marker date="1527846573525" expanded="true" signature="2077:2155" ph="INSERT INTO personne... " />
+            <marker date="1527846573525" expanded="true" signature="2483:2521" ph="SELECT * fro... personne" />
+            <marker date="1527846573525" expanded="true" signature="2899:3009" ph="SELECT * FRO... commentaire" />
+            <marker date="1527846573525" expanded="true" signature="3226:3343" ph="INSERT INTO commentaire... " />
+            <marker date="1527846573525" expanded="true" signature="3749:3865" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="3987:4011" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="4141:4175" ph="SELECT ID, c... messages" />
+            <marker date="1527846573525" expanded="true" signature="4268:4336" ph="SELECT ID_ut... messages" />
+            <marker date="1527846573525" expanded="true" signature="4598:5177" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="4613:5115" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="5383:5986" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="5398:5924" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6210:6732" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6225:6670" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6893:7465" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6908:7403" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="7682:8254" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="7697:8192" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="8442:9046" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="8457:8984" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="9240:9834" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="9255:9772" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10033:10659" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="10048:10597" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10861:10974" ph="UPDATE messages... " />
+            <marker date="1527846573525" expanded="true" signature="10861:10989" ph="UPDATE messages... " />
           </folding>
         </state>
       </provider>
@@ -316,7 +447,7 @@
         <state relative-caret-position="1482">
           <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
-            <marker date="1527720203640" expanded="true" signature="2907:3012" ph="..." />
+            <marker date="1527843917518" expanded="true" signature="2829:2854" ph="..." />
           </folding>
         </state>
       </provider>
@@ -326,18 +457,37 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1527720148345" expanded="true" signature="301:719" ph="SELECT * FRO... ID" />
-            <marker date="1527720148345" expanded="true" signature="316:657" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="883:922" ph="SELECT ID fr... personne" />
-            <marker date="1527720148345" expanded="true" signature="1132:1172" ph="SELECT nom f... personne" />
-            <marker date="1527720148345" expanded="true" signature="1372:1462" ph="INSERT INTO messages... " />
-            <marker date="1527720148345" expanded="true" signature="1835:1877" ph="SELECT email... personne" />
-            <marker date="1527720148345" expanded="true" signature="2209:2287" ph="INSERT INTO personne... " />
-            <marker date="1527720148345" expanded="true" signature="2615:2653" ph="SELECT * fro... personne" />
-            <marker date="1527720148345" expanded="true" signature="3031:3141" ph="SELECT * FRO... commentaire" />
-            <marker date="1527720148345" expanded="true" signature="3358:3475" ph="INSERT INTO commentaire... " />
-            <marker date="1527720148345" expanded="true" signature="3854:3969" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="4061:4085" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="310:486" ph="SELECT *, me... messages" />
+            <marker date="1527846573525" expanded="true" signature="650:689" ph="SELECT ID fr... personne" />
+            <marker date="1527846573525" expanded="true" signature="899:939" ph="SELECT nom f... personne" />
+            <marker date="1527846573525" expanded="true" signature="1151:1265" ph="INSERT INTO messages... " />
+            <marker date="1527846573525" expanded="true" signature="1703:1745" ph="SELECT email... personne" />
+            <marker date="1527846573525" expanded="true" signature="2077:2155" ph="INSERT INTO personne... " />
+            <marker date="1527846573525" expanded="true" signature="2483:2521" ph="SELECT * fro... personne" />
+            <marker date="1527846573525" expanded="true" signature="2899:3009" ph="SELECT * FRO... commentaire" />
+            <marker date="1527846573525" expanded="true" signature="3226:3343" ph="INSERT INTO commentaire... " />
+            <marker date="1527846573525" expanded="true" signature="3749:3865" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="3987:4011" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="4141:4175" ph="SELECT ID, c... messages" />
+            <marker date="1527846573525" expanded="true" signature="4268:4336" ph="SELECT ID_ut... messages" />
+            <marker date="1527846573525" expanded="true" signature="4598:5177" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="4613:5115" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="5383:5986" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="5398:5924" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6210:6732" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6225:6670" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6893:7465" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6908:7403" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="7682:8254" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="7697:8192" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="8442:9046" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="8457:8984" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="9240:9834" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="9255:9772" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10033:10659" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="10048:10597" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10861:10974" ph="UPDATE messages... " />
+            <marker date="1527846573525" expanded="true" signature="10861:10989" ph="UPDATE messages... " />
           </folding>
         </state>
       </provider>
@@ -355,7 +505,7 @@
         <state relative-caret-position="1482">
           <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
-            <marker date="1527720203640" expanded="true" signature="2907:3012" ph="..." />
+            <marker date="1527843917518" expanded="true" signature="2829:2854" ph="..." />
           </folding>
         </state>
       </provider>
@@ -373,18 +523,37 @@
         <state relative-caret-position="2158">
           <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
           <folding>
-            <marker date="1527720148345" expanded="true" signature="301:719" ph="SELECT * FRO... ID" />
-            <marker date="1527720148345" expanded="true" signature="316:657" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="883:922" ph="SELECT ID fr... personne" />
-            <marker date="1527720148345" expanded="true" signature="1132:1172" ph="SELECT nom f... personne" />
-            <marker date="1527720148345" expanded="true" signature="1372:1462" ph="INSERT INTO messages... " />
-            <marker date="1527720148345" expanded="true" signature="1835:1877" ph="SELECT email... personne" />
-            <marker date="1527720148345" expanded="true" signature="2209:2287" ph="INSERT INTO personne... " />
-            <marker date="1527720148345" expanded="true" signature="2615:2653" ph="SELECT * fro... personne" />
-            <marker date="1527720148345" expanded="true" signature="3031:3141" ph="SELECT * FRO... commentaire" />
-            <marker date="1527720148345" expanded="true" signature="3358:3475" ph="INSERT INTO commentaire... " />
-            <marker date="1527720148345" expanded="true" signature="3854:3969" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="4061:4085" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="310:486" ph="SELECT *, me... messages" />
+            <marker date="1527846573525" expanded="true" signature="650:689" ph="SELECT ID fr... personne" />
+            <marker date="1527846573525" expanded="true" signature="899:939" ph="SELECT nom f... personne" />
+            <marker date="1527846573525" expanded="true" signature="1151:1265" ph="INSERT INTO messages... " />
+            <marker date="1527846573525" expanded="true" signature="1703:1745" ph="SELECT email... personne" />
+            <marker date="1527846573525" expanded="true" signature="2077:2155" ph="INSERT INTO personne... " />
+            <marker date="1527846573525" expanded="true" signature="2483:2521" ph="SELECT * fro... personne" />
+            <marker date="1527846573525" expanded="true" signature="2899:3009" ph="SELECT * FRO... commentaire" />
+            <marker date="1527846573525" expanded="true" signature="3226:3343" ph="INSERT INTO commentaire... " />
+            <marker date="1527846573525" expanded="true" signature="3749:3865" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="3987:4011" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="4141:4175" ph="SELECT ID, c... messages" />
+            <marker date="1527846573525" expanded="true" signature="4268:4336" ph="SELECT ID_ut... messages" />
+            <marker date="1527846573525" expanded="true" signature="4598:5177" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="4613:5115" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="5383:5986" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="5398:5924" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6210:6732" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6225:6670" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6893:7465" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6908:7403" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="7682:8254" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="7697:8192" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="8442:9046" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="8457:8984" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="9240:9834" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="9255:9772" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10033:10659" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="10048:10597" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10861:10974" ph="UPDATE messages... " />
+            <marker date="1527846573525" expanded="true" signature="10861:10989" ph="UPDATE messages... " />
           </folding>
         </state>
       </provider>
@@ -415,7 +584,7 @@
         <state relative-caret-position="884">
           <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
           <folding>
-            <marker date="1527720203640" expanded="true" signature="2907:3012" ph="..." />
+            <marker date="1527843917518" expanded="true" signature="2829:2854" ph="..." />
           </folding>
         </state>
       </provider>
@@ -441,18 +610,37 @@
         <state relative-caret-position="1638">
           <caret line="91" column="14" lean-forward="false" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
           <folding>
-            <marker date="1527720148345" expanded="true" signature="301:719" ph="SELECT * FRO... ID" />
-            <marker date="1527720148345" expanded="true" signature="316:657" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="883:922" ph="SELECT ID fr... personne" />
-            <marker date="1527720148345" expanded="true" signature="1132:1172" ph="SELECT nom f... personne" />
-            <marker date="1527720148345" expanded="true" signature="1372:1462" ph="INSERT INTO messages... " />
-            <marker date="1527720148345" expanded="true" signature="1835:1877" ph="SELECT email... personne" />
-            <marker date="1527720148345" expanded="true" signature="2209:2287" ph="INSERT INTO personne... " />
-            <marker date="1527720148345" expanded="true" signature="2615:2653" ph="SELECT * fro... personne" />
-            <marker date="1527720148345" expanded="true" signature="3031:3141" ph="SELECT * FRO... commentaire" />
-            <marker date="1527720148345" expanded="true" signature="3358:3475" ph="INSERT INTO commentaire... " />
-            <marker date="1527720148345" expanded="true" signature="3854:3969" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="4061:4085" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="310:486" ph="SELECT *, me... messages" />
+            <marker date="1527846573525" expanded="true" signature="650:689" ph="SELECT ID fr... personne" />
+            <marker date="1527846573525" expanded="true" signature="899:939" ph="SELECT nom f... personne" />
+            <marker date="1527846573525" expanded="true" signature="1151:1265" ph="INSERT INTO messages... " />
+            <marker date="1527846573525" expanded="true" signature="1703:1745" ph="SELECT email... personne" />
+            <marker date="1527846573525" expanded="true" signature="2077:2155" ph="INSERT INTO personne... " />
+            <marker date="1527846573525" expanded="true" signature="2483:2521" ph="SELECT * fro... personne" />
+            <marker date="1527846573525" expanded="true" signature="2899:3009" ph="SELECT * FRO... commentaire" />
+            <marker date="1527846573525" expanded="true" signature="3226:3343" ph="INSERT INTO commentaire... " />
+            <marker date="1527846573525" expanded="true" signature="3749:3865" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="3987:4011" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="4141:4175" ph="SELECT ID, c... messages" />
+            <marker date="1527846573525" expanded="true" signature="4268:4336" ph="SELECT ID_ut... messages" />
+            <marker date="1527846573525" expanded="true" signature="4598:5177" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="4613:5115" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="5383:5986" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="5398:5924" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6210:6732" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6225:6670" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6893:7465" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6908:7403" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="7682:8254" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="7697:8192" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="8442:9046" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="8457:8984" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="9240:9834" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="9255:9772" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10033:10659" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="10048:10597" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10861:10974" ph="UPDATE messages... " />
+            <marker date="1527846573525" expanded="true" signature="10861:10989" ph="UPDATE messages... " />
           </folding>
         </state>
       </provider>
@@ -483,7 +671,7 @@
         <state relative-caret-position="612">
           <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
           <folding>
-            <marker date="1527720203640" expanded="true" signature="2907:3012" ph="..." />
+            <marker date="1527843917518" expanded="true" signature="2829:2854" ph="..." />
           </folding>
         </state>
       </provider>
@@ -509,18 +697,37 @@
         <state relative-caret-position="1638">
           <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
           <folding>
-            <marker date="1527720148345" expanded="true" signature="301:719" ph="SELECT * FRO... ID" />
-            <marker date="1527720148345" expanded="true" signature="316:657" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="883:922" ph="SELECT ID fr... personne" />
-            <marker date="1527720148345" expanded="true" signature="1132:1172" ph="SELECT nom f... personne" />
-            <marker date="1527720148345" expanded="true" signature="1372:1462" ph="INSERT INTO messages... " />
-            <marker date="1527720148345" expanded="true" signature="1835:1877" ph="SELECT email... personne" />
-            <marker date="1527720148345" expanded="true" signature="2209:2287" ph="INSERT INTO personne... " />
-            <marker date="1527720148345" expanded="true" signature="2615:2653" ph="SELECT * fro... personne" />
-            <marker date="1527720148345" expanded="true" signature="3031:3141" ph="SELECT * FRO... commentaire" />
-            <marker date="1527720148345" expanded="true" signature="3358:3475" ph="INSERT INTO commentaire... " />
-            <marker date="1527720148345" expanded="true" signature="3854:3969" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="4061:4085" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="310:486" ph="SELECT *, me... messages" />
+            <marker date="1527846573525" expanded="true" signature="650:689" ph="SELECT ID fr... personne" />
+            <marker date="1527846573525" expanded="true" signature="899:939" ph="SELECT nom f... personne" />
+            <marker date="1527846573525" expanded="true" signature="1151:1265" ph="INSERT INTO messages... " />
+            <marker date="1527846573525" expanded="true" signature="1703:1745" ph="SELECT email... personne" />
+            <marker date="1527846573525" expanded="true" signature="2077:2155" ph="INSERT INTO personne... " />
+            <marker date="1527846573525" expanded="true" signature="2483:2521" ph="SELECT * fro... personne" />
+            <marker date="1527846573525" expanded="true" signature="2899:3009" ph="SELECT * FRO... commentaire" />
+            <marker date="1527846573525" expanded="true" signature="3226:3343" ph="INSERT INTO commentaire... " />
+            <marker date="1527846573525" expanded="true" signature="3749:3865" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="3987:4011" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="4141:4175" ph="SELECT ID, c... messages" />
+            <marker date="1527846573525" expanded="true" signature="4268:4336" ph="SELECT ID_ut... messages" />
+            <marker date="1527846573525" expanded="true" signature="4598:5177" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="4613:5115" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="5383:5986" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="5398:5924" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6210:6732" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6225:6670" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6893:7465" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6908:7403" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="7682:8254" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="7697:8192" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="8442:9046" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="8457:8984" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="9240:9834" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="9255:9772" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10033:10659" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="10048:10597" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10861:10974" ph="UPDATE messages... " />
+            <marker date="1527846573525" expanded="true" signature="10861:10989" ph="UPDATE messages... " />
           </folding>
         </state>
       </provider>
@@ -567,7 +774,7 @@
         <state relative-caret-position="108">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1527720203640" expanded="true" signature="2907:3012" ph="..." />
+            <marker date="1527843917518" expanded="true" signature="2829:2854" ph="..." />
           </folding>
         </state>
       </provider>
@@ -587,65 +794,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajout_commentaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="99" column="167" lean-forward="false" selection-start-line="99" selection-start-column="167" selection-end-line="99" selection-end-column="168" />
+        <state relative-caret-position="362">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-          <folding>
-            <marker date="1527720148345" expanded="true" signature="301:719" ph="SELECT * FRO... ID" />
-            <marker date="1527720148345" expanded="true" signature="316:657" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="883:922" ph="SELECT ID fr... personne" />
-            <marker date="1527720148345" expanded="true" signature="1132:1172" ph="SELECT nom f... personne" />
-            <marker date="1527720148345" expanded="true" signature="1372:1462" ph="INSERT INTO messages... " />
-            <marker date="1527720148345" expanded="true" signature="1835:1877" ph="SELECT email... personne" />
-            <marker date="1527720148345" expanded="true" signature="2209:2287" ph="INSERT INTO personne... " />
-            <marker date="1527720148345" expanded="true" signature="2615:2653" ph="SELECT * fro... personne" />
-            <marker date="1527720148345" expanded="true" signature="3031:3141" ph="SELECT * FRO... commentaire" />
-            <marker date="1527720148345" expanded="true" signature="3358:3475" ph="INSERT INTO commentaire... " />
-            <marker date="1527720148345" expanded="true" signature="3854:3969" ph="SELECT DISTI... messages" />
-            <marker date="1527720148345" expanded="true" signature="4061:4085" ph="SELECT * fro... categories" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller_actualites.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="260">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue_actualites.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+        <state relative-caret-position="338">
+          <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <marker date="1527720203640" expanded="true" signature="2907:3012" ph="..." />
+            <marker date="1527843917518" expanded="true" signature="2829:2854" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homeniscience/support/panne/form_edit_pannes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajout_commentaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homeniscience/support/panne/support_modele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1044">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1527582483207" expanded="true" signature="649:1186" ph="SELECT *, eq... panne" />
+            <marker date="1527582483207" expanded="true" signature="1400:1554" ph="SELECT *, pa... panne" />
+            <marker date="1527582483207" expanded="true" signature="1714:1739" ph="SELECT * FRO... type_statut" />
+            <marker date="1527582483207" expanded="true" signature="1852:2020" ph="UPDATE panne... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifierSujet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="199" column="20" lean-forward="false" selection-start-line="199" selection-start-column="20" selection-end-line="199" selection-end-column="20" />
+          <folding>
+            <marker date="1527846573525" expanded="true" signature="310:486" ph="SELECT *, me... messages" />
+            <marker date="1527846573525" expanded="true" signature="650:689" ph="SELECT ID fr... personne" />
+            <marker date="1527846573525" expanded="true" signature="899:939" ph="SELECT nom f... personne" />
+            <marker date="1527846573525" expanded="true" signature="1151:1265" ph="INSERT INTO messages... " />
+            <marker date="1527846573525" expanded="true" signature="1703:1745" ph="SELECT email... personne" />
+            <marker date="1527846573525" expanded="true" signature="2077:2155" ph="INSERT INTO personne... " />
+            <marker date="1527846573525" expanded="true" signature="2483:2521" ph="SELECT * fro... personne" />
+            <marker date="1527846573525" expanded="true" signature="2899:3009" ph="SELECT * FRO... commentaire" />
+            <marker date="1527846573525" expanded="true" signature="3226:3343" ph="INSERT INTO commentaire... " />
+            <marker date="1527846573525" expanded="true" signature="3749:3865" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="3987:4011" ph="SELECT * fro... categories" />
+            <marker date="1527846573525" expanded="true" signature="4141:4175" ph="SELECT ID, c... messages" />
+            <marker date="1527846573525" expanded="true" signature="4268:4336" ph="SELECT ID_ut... messages" />
+            <marker date="1527846573525" expanded="true" signature="4598:5177" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="4613:5115" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="5383:5986" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="5398:5924" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6210:6732" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6225:6670" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="6893:7465" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="6908:7403" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="7682:8254" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="7697:8192" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="8442:9046" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="8457:8984" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="9240:9834" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="9255:9772" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10033:10659" ph="SELECT * FRO... ID" />
+            <marker date="1527846573525" expanded="true" signature="10048:10597" ph="SELECT DISTI... messages" />
+            <marker date="1527846573525" expanded="true" signature="10861:10974" ph="UPDATE messages... " />
+            <marker date="1527846573525" expanded="true" signature="10861:10989" ph="UPDATE messages... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="52" column="120" lean-forward="false" selection-start-line="52" selection-start-column="120" selection-end-line="52" selection-end-column="120" />
+          <folding>
+            <marker date="1527846704101" expanded="true" signature="3083:3336" ph="..." />
+            <marker date="1527846704101" expanded="true" signature="3188:3336" ph="..." />
+            <marker date="1527846704101" expanded="true" signature="3271:3336" ph="..." />
+            <marker date="1527846704101" expanded="true" signature="3677:3838" ph="..." />
           </folding>
         </state>
       </provider>

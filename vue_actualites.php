@@ -28,6 +28,7 @@
       <li><a href="">Acutalités</a></li>
       <li><a href="">Ajouter un sujet</a></li>
       <li><a href="">Contact</a></li>
+      <li><a href="controller_admin.php">Admin</a></li>
       <?php echo $deconnexion; ?>
     </ul>
   </header>
